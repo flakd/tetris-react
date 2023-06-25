@@ -1,8 +1,7 @@
 import './styles.css';
-
 import Game from './components/Game';
 
-export default function App() {
+function App() {
   return (
     <div className='App'>
       <Game
@@ -12,3 +11,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
